@@ -57,7 +57,7 @@ São funções que possui cada um deles determinada funções que são
     require_once 'config.php';
     // Quando o usuário for autenticar, será reridicionado para discord para poder permitir entregar suas informações para o site
     // Logo depois irá retornar um valor atribuido do GET chamado "code" Ex : http://localhost/login.php?code=kdsasdJAJDSDJDJasmds82
-    if($_GET['code']){ // code é uma chave para requisitar para api do discord é preciso ser dessa forma "code".
+    if(isset($_GET['code'])){ // code é uma chave para requisitar para api do discord é preciso ser dessa forma "code".
         $discord = new Discord($config);
         // autenticando com discord, esta função é obrigatória, ele retorna um Objeto
         $result = $discord->authenticate(); 

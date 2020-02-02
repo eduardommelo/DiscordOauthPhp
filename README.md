@@ -67,8 +67,7 @@ $config['discord_auth'] = ''; // url do oauth2 do discord que se encontra em dis
         // Caso queira ver o que mais retorna basta acessar: https://discordapp.com/developers/docs/topics/oauth2
     } else header('Location: /index.php'); // caso não tenha requisição code é reridicionado para a pagina principal.
 ```
-- Imagem
-    <center><img src="http://prntscr.com/qwazb3"></center>
+- Imagem [Clique aqui](https://prnt.sc/qwazb3)
 ### Conclusão
     Bom é algo bem bobo que até me ajudou a me dar uma clareada melhor ainda, quando você pratica algo novamente você certamente
     irá amadurecer mais e aperfeiçoar seu código, faça de bom uso deste código e você pode requisitar um pull request caso queira melhora-lo.

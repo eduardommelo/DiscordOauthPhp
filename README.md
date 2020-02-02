@@ -2,17 +2,17 @@
 
 ### Objetivo deste repositório.
 
-    Bom, andei desenvolvendo por longo tempo php a anos atrás, como fui para outra linguagem como (JavaScript), acabei esquecendo
-    vários conceitos da linguagem em si, por conta de eu ter focado muito em JS, então eu decidi fazer esta mini-ferramenta, com intuito
-    de dar uma agilizada para aqueles que querem oauth2 do discord em php, inclusive desenvolvedores de habbo gosta disso, então
-    trouxe essa solução para rever alguns conceitos de php e treinar meus conhecimentos na linguagem em si, como eu parei a 3 anos atrás,
+Bom, andei desenvolvendo por longo tempo php a anos atrás, como fui para outra linguagem como (JavaScript), acabei esquecendo
+vários conceitos da linguagem em si, por conta de eu ter focado muito em JS, então eu decidi fazer esta mini-ferramenta, com intuito
+de dar uma agilizada para aqueles que querem oauth2 do discord em php, inclusive desenvolvedores de habbo gosta disso, então
+trouxe essa solução para rever alguns conceitos de php e treinar meus conhecimentos na linguagem em si, como eu parei a 3 anos atrás,
     testei se eu ainda conseguia me ldiar bem a linguagem (até que deu certo), mas é aquele ditado né "O conhecimento nunca é tirado e ninguém
-    nunca conseguirá tirar de tu." façam um bom aproveito desta ferramenta, qualquer dúvida estou aí.
+nunca conseguirá tirar de tu." façam um bom aproveito desta ferramenta, qualquer dúvida estou aí.
 
 ### Como utiliza-lo
 
-    Bom primeiramente para você poder utilizar a ferramenta é preciso efetuar algumas configurações, segue o codeblock logo abaixo
-    instruindo.
+Bom primeiramente para você poder utilizar a ferramenta é preciso efetuar algumas configurações, segue o codeblock logo abaixo
+instruindo.
 
     1- Crie um arquivo chamado config.php e depois coloque este seguinte código instruindo logo abaixo.
 ```php
@@ -42,7 +42,7 @@ $config['discord_auth'] = ''; // url do oauth2 do discord que se encontra em dis
 
 ### Instâncias.
 
-    São funções que possui cada um deles determinada funções que são 
+São funções que possui cada um deles determinada funções que são 
 
     - `new Api()` : Instância responsável pelas requisições para api do discord
         - Função: `<Api>->authenticate()` // função responsável pela autenticação do usuário entre seu site ele irá retornar resposta
@@ -69,7 +69,7 @@ $config['discord_auth'] = ''; // url do oauth2 do discord que se encontra em dis
 ```
 - Imagem [Clique aqui](https://prnt.sc/qwazb3)
 ### Conclusão
-    Bom é algo bem bobo que até me ajudou a me dar uma clareada melhor ainda, quando você pratica algo novamente você certamente
-    irá amadurecer mais e aperfeiçoar seu código, faça de bom uso deste código e você pode requisitar um pull request caso queira melhora-lo.
+Bom é algo bem bobo que até me ajudou a me dar uma clareada melhor ainda, quando você pratica algo novamente você certamente
+irá amadurecer mais e aperfeiçoar seu código, faça de bom uso deste código e você pode requisitar um pull request caso queira melhora-lo.
 
-    Mais informações sobre Oauth2 Discord em : [Clique aqui](https://discordapp.com/developers/docs/topics/oauth2).
+Mais informações sobre Oauth2 Discord em : [Clique aqui](https://discordapp.com/developers/docs/topics/oauth2).

@@ -11,7 +11,7 @@
 
 ### Como utiliza-lo
 
-    Bom primeiramente para você poder utilizar a ferramensa é preciso efetuar algumas configurações, segue o codeblock logo abaixo
+    Bom primeiramente para você poder utilizar a ferramenta é preciso efetuar algumas configurações, segue o codeblock logo abaixo
     instruindo.
 
     1- Crie um arquivo chamado config.php e depois coloque este seguinte código instruindo logo abaixo.
@@ -67,7 +67,8 @@ $config['discord_auth'] = ''; // url do oauth2 do discord que se encontra em dis
         // Caso queira ver o que mais retorna basta acessar: https://discordapp.com/developers/docs/topics/oauth2
     } else header('Location: /index.php'); // caso não tenha requisição code é reridicionado para a pagina principal.
 ```
-
+- Imagem
+    <center><img src="http://prntscr.com/qwazb3"></center>
 ### Conclusão
     Bom é algo bem bobo que até me ajudou a me dar uma clareada melhor ainda, quando você pratica algo novamente você certamente
     irá amadurecer mais e aperfeiçoar seu código, faça de bom uso deste código e você pode requisitar um pull request caso queira melhora-lo.
